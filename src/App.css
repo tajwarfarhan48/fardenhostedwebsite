@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexCenter {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  background-color: rgb(9, 8, 42);
 }
 
-@keyframes App-logo-spin {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.heartParent {
+  display: inline;
+}
+
+.heart {
+  height: 70px;
+  width: 70px;
+  background: #a01719;
+  position: relative;
+  transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px #a01719;
+  animation: heart 0.5s linear infinite;
+}
+
+@keyframes heart {
+  0% {
+    transform: rotate(-45deg) scale(1.07);
+  }
+
+  80% {
+    transform: rotate(-45deg) scale(1.00);
+  }
+
+  100% {
+    transform: rotate(-45deg) scale(0.80);
+  }
+}
+
+.heart:before {
+  content: '';
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background: #a01719;
+  top: -50%;
+  border-radius: 50px;
+  box-shadow: -10px -10px 90px #a01719;
+}
+
+.heart:after {
+  content: '';
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background: #a01719;
+  right: -50%;
+  border-radius: 50px;
+  box-shadow: 10px 10px 90px #a01719;
+}
+
+.heading {
+  font-family: 'Cute Font', cursive;
+  color: pink;
+  font-size: 10em;
+  text-shadow: -5px -4px white;
+  text-align: end;
+}
+
+.sun {
+  animation: sun 10s linear infinite;
+}
+
+@keyframes sun {
   from {
-    transform: rotate(0deg);
+    transform: rotate(1deg);
   }
+
   to {
-    transform: rotate(360deg);
+    transform: rotate(359deg);
   }
+}
+
+.yellowBox {
+  width: 90vw;
+  height: 90vw;
+  max-width: 800px;
+  max-height: 800px;
+  background-color: goldenrod;
+}
+
+.brownBox {
+  width: 97%;
+  height: 97%;
+  background-color: rgb(114, 70, 70);
+}
+
+.goldBox {
+  width: 97%;
+  height: 97%;
+  background-color: yellow;
+}
+
+.imageBox {
+  width: 97%;
+  height: 97%;
+  background-image: url("https://images.unsplash.com/photo-1533422902779-aff35862e462?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
 }
