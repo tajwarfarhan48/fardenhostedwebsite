@@ -6,8 +6,8 @@ const Header = () => {
         <div className="header">
             <div className="navbar">
                 <Heart />
-                <h1 className="heading">Happy Birthday !!!</h1>
-                <Sun size="150"/>
+                <h1 className="heading">Hey Pretty Girl</h1>
+                <Sun size="100"/>
             </div>
         </div>
      );

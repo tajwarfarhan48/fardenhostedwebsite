@@ -11,15 +11,19 @@
   align-items: center;
 }
 
+.rounded {
+  border-radius: 20px;
+}
+
 .App {
-  background-color: rgb(9, 8, 42);
+  background-color: rgb(14, 3, 43);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5vw 2vh;
+  padding: 10px 40px;
 }
 
 .heartParent {
@@ -27,8 +31,8 @@
 }
 
 .heart {
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
   background: #a01719;
   position: relative;
   transform: rotate(-45deg);
@@ -53,8 +57,8 @@
 .heart:before {
   content: '';
   position: absolute;
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
   background: #a01719;
   top: -50%;
   border-radius: 50px;
@@ -64,8 +68,8 @@
 .heart:after {
   content: '';
   position: absolute;
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
   background: #a01719;
   right: -50%;
   border-radius: 50px;
@@ -75,6 +79,7 @@
 .heading {
   font-family: 'Cute Font', cursive;
   color: pink;
+  /* color: gray; */
   font-size: 10vw;
   text-shadow: -0.4vw -0.4vw white;
   text-align: center;
@@ -105,21 +110,24 @@
 .brownBox {
   width: 97%;
   height: 97%;
-  background-color: rgb(114, 70, 70);
+  /* background-color: rgb(114, 70, 70); */
+  /* background-color: rgb(65, 65, 152); */
+  background-color: black;
 }
 
 .goldBox {
   width: 97%;
   height: 97%;
   background-color: yellow;
+  /* background-color: pink; */
 }
 
 .imageBox {
   width: 97%;
   height: 97%;
-  background-image: url("https://images.unsplash.com/photo-1533422902779-aff35862e462?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80");
-  background-repeat: no-repeat;
+  background-image: url("./static/img/MainImage.jpeg");
   background-position: center center;
+  background-size: contain;
 }
 
 .bottomRow {

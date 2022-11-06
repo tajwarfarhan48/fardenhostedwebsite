@@ -1,10 +1,10 @@
 const MainImage = () => {
     return (
         <div className="mainImageContainer flexCenter">
-            <div className="yellowBox flexCenter">
-                <div className="brownBox flexCenter">
-                    <div className="goldBox flexCenter">
-                        <div className="imageBox flexCenter">
+            <div className="yellowBox flexCenter rounded">
+                <div className="brownBox flexCenter rounded">
+                    <div className="goldBox flexCenter rounded">
+                        <div className="imageBox flexCente rounded">
                         </div>
                     </div>
                 </div>
