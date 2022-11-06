@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/fardenhostedwebsite/static/css/main.d717527d.css",
-    "main.js": "/fardenhostedwebsite/static/js/main.a955591d.js",
+    "main.css": "/fardenhostedwebsite/static/css/main.9ef99b84.css",
+    "main.js": "/fardenhostedwebsite/static/js/main.0f44d4c4.js",
     "static/js/787.53b1f751.chunk.js": "/fardenhostedwebsite/static/js/787.53b1f751.chunk.js",
-    "static/media/Rose.svg": "/fardenhostedwebsite/static/media/Rose.89ab033a56dc8036c0a93a22cf5c9a09.svg",
+    "static/media/MainImage.jpeg": "/fardenhostedwebsite/static/media/MainImage.cd7f085d015fda576545.jpeg",
+    "static/media/Rose.svg": "/fardenhostedwebsite/static/media/Rose.f726dd587cf11f8baa3b56a8ab868cae.svg",
     "static/media/Sun.svg": "/fardenhostedwebsite/static/media/Sun.361e2dc30c40c47115c348a544e0d3f1.svg",
     "index.html": "/fardenhostedwebsite/index.html",
-    "static/media/Heart-Eyes.svg": "/fardenhostedwebsite/static/media/Heart-Eyes.dd895d871888cb4d01dff91929f8a0f6.svg",
-    "main.d717527d.css.map": "/fardenhostedwebsite/static/css/main.d717527d.css.map",
-    "main.a955591d.js.map": "/fardenhostedwebsite/static/js/main.a955591d.js.map",
+    "static/media/Heart-Eyes.svg": "/fardenhostedwebsite/static/media/Heart-Eyes.5224dc281fb9d0e9b6a0bbd470592f92.svg",
+    "main.9ef99b84.css.map": "/fardenhostedwebsite/static/css/main.9ef99b84.css.map",
+    "main.0f44d4c4.js.map": "/fardenhostedwebsite/static/js/main.0f44d4c4.js.map",
     "787.53b1f751.chunk.js.map": "/fardenhostedwebsite/static/js/787.53b1f751.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d717527d.css",
-    "static/js/main.a955591d.js"
+    "static/css/main.9ef99b84.css",
+    "static/js/main.0f44d4c4.js"
   ]
 }
