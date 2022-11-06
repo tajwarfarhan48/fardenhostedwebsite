@@ -4,7 +4,7 @@ const BottomRow = () => {
     return ( 
         <div className="bottomRow">
             <HeartEyes />
-            <HeartEyes />
+            <Rose />
         </div>
      );
 }
