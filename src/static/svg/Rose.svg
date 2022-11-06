@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> -->
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="15vw" height="23vw" fill="#cc348e" viewBox="0 0 15vw 23vw">
+ width="15vw" height="23vw" fill="#cc348e" viewBox="0 0 15 23">
 <!-- <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none"> -->
 <path d="M3305 12698 c-167 -175 -319 -379 -641 -859 -106 -158 -224 -341
